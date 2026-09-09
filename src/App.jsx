@@ -1,14 +1,10 @@
-
+import ToDoInput from "./component/ToDoInput";
 
 function App() {
-  return (
-      
+  return ( 
         <div className="App">
-          hello
-        </div>
-     
-    
+          <ToDoInput/>
+        </div>   
   );
 }
-
 export default App;
